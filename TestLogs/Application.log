@@ -1,0 +1,4 @@
+[INFO ] 2024-04-12 13:24:42.074 [main] BaseClass - User get logged in
+[INFO ] 2024-04-12 13:24:50.207 [main] BaseClass - User not able to get logged in due to incorrect credentials. 
+[INFO ] 2024-04-12 13:24:50.712 [main] BaseClass - User not able to get logged in due to empty username and password fields. 
+[INFO ] 2024-04-12 13:24:51.387 [main] BaseClass - User not able to get logged in due to empty password field.

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="browserType" value="chrome"/>
+  <listeners>
+    <listener class-name="com.listener.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="com.agroworlds.login.tests.LoginClass">
+        <methods>
+          <include name="loginWithPasswordFieldBlank"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="loginWithBlankFields"/>
+          <include name="loginWithInValidCredential"/>
+          <include name="loginWithValidCredential"/>
+        </methods>
+      </class> <!-- com.agroworlds.login.tests.LoginClass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
